@@ -1,0 +1,14 @@
+#library-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 15px;
+}
+
+.card {
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: gray;
+}
