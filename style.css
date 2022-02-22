@@ -1,3 +1,7 @@
+:root, html {
+    box-sizing: border-box;
+}
+
 #library-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -6,9 +10,14 @@
 }
 
 .card {
-    width: 500px;
-    height: 600px;
+    display: flex;
+    width: 400px;
+    height: 400px;
     border-radius: 5px;
     border-style: solid;
-    background-color: gray;
+    background-color: rgb(204, 204, 204);
+    white-space: pre-wrap;
+    justify-content: center;
+    padding-top: 15px;
+    
 }
